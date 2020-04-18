@@ -7,36 +7,235 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        ul .nav-item a:hover {
+            background-color: darkgrey;
+            transition-duration: .4s;
+        }
+
+        .category_img {
+            /*width: 200px;*/
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .category_img {
+                width: 200px;
+            }
+        }
+
+        .samples {
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        .samples h4 {
+            margin-top: 4px;
+            margin-left: 10px;
+        }
+
+        .shoping {
+            margin-top: 30px;
+        }
+
+        .shoping img {
+            width: 100%;
+
+        }
+
+        .on-image {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            padding-left: 40px;
+        }
+
+        .on-banner {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            padding-left: 120px;
+        }
+
+        .mylinks:hover {
+            font-size: 1.1em;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
 
 <header class="sticky-top">
-    <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
-        <a class="display-4 navbar-brand">ARM</a>
+    <nav class="navbar navbar-expand-md bg-light navbar-light m-0 p-0">
+        <a class="display-4 navbar-brand pl-4" href="index.html">GLASSES</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navItems">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navItems">
             <ul class="navbar-nav">
-                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="link1.html" class="nav-link">Link1</a></li>
-                <li class="nav-item"><a href="link2.html" class="nav-link">Link2</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="index.html" class="p-3 nav-link active">Home</a></li>
+                <li class="nav-item"><a href="men.html" class="p-3 nav-link">Men</a></li>
+                <li class="nav-item"><a href="women.html" class="p-3 nav-link">Women</a></li>
+                <li class="nav-item"><a href="kids.html" class="p-3 nav-link">Kids</a></li>
+                <li class="nav-item"><a href="about.html" class="p-3 nav-link">About</a></li>
             </ul>
         </div>
     </nav>
 </header>
 
-<main class="container-fluid" style="background-color: darkgrey">
-
-    <h1 class="display-4" style="font-size: 30px"> Main contents of the page</h1>
-
+<main>
+    <div class="row m-0 p-0">
+        <div class="col text-center">
+            <h1 class="display-4 p-3" style="font-size: 2.0em">These images are from other sites and are used for
+                learning purpose.</h1>
+        </div>
+    </div>
+    <div class="row container-fluid m-0 p-0">
+        <div class="col">
+            <img src="img/home/banner.png" class="" width="100%" alt="Banner">
+<!--            <div class="on-banner text-light">-->
+<!--                <h2> Low Prices <br>Glasses </h2>-->
+<!--                <div class="bar bar-white bar-short bar-transparent"></div>-->
+<!--                <p class="color-white margin-bottom-15" style="margin-left: 50px">-->
+<!--                    Exceptional style and<br> value starts here.-->
+<!--                </p>-->
+<!--                <div style="margin-left: 100px">-->
+<!--                    <a class="btn display-4 text-light border border-light p-2 mylinks"> SHOP Sunglasses</a> <br>-->
+<!--                    <a class="btn display-4 text-light border border-light mt-3 p-2 mylinks" style="margin-left: 50px">-->
+<!--                        SHOP Eyeglasses</a> <br>-->
+<!--                    <a class="btn display-4 text-light border border-light mt-3 p-2 mylinks" style="margin-left: 125px">-->
+<!--                        SHOP NOW</a>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </div>
+    <div class="row container-fluid m-0 p-0">
+        <div class="col text-center mt-2">
+            <h3 class="display-4" style="font-size: 2.5em">Your Frames</h3>
+        </div>
+    </div>
+    <div class="row container-fluid m-0 p-0">
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_FaceShape-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Face Shape</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_FrameStyle-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Frame Style</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_glasses-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Glasses</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_Men-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Men</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_Women-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Women</h4>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4 col text-center">
+            <div class="samples">
+                <img src="img/home/Tiles_Tortoiseshell-md.jpg" class="category_img" alt="Shapes">
+                <h4 class="display-4" style="font-size: 20px">Tortoiseshell</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0 p-0">
+        <div class="col-lg-6 col-sm-12">
+            <div class="shoping">
+                <img src="img/home/SpringMustHaves_c_spot_hp-md.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-light ml-n4">
+                    <h2> Price <br>Some Name </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white margin-bottom-15">
+                        Some text <br> Optional
+                    </p>
+                    <a class="btn text-light border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="shoping">
+                <img src="img/home/two_tile_b_spot_right_hp_best_seller-md.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-light">
+                    <h2> 500af <br>Glasses </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white margin-bottom-15">
+                        Exceptional style and<br> value starts here.
+                    </p>
+                    <a class="btn text-light border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="shoping">
+                <img src="img/home/2_tile_d_spot_left_women_blokz_sunglasses-md.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-light">
+                    <h2> 500af <br>Glasses </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white margin-bottom-15">
+                        Exceptional style and<br> value starts here.
+                    </p>
+                    <a class="btn text-light border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="shoping">
+                <img src="img/home/2_tile_d_spot_right_homepage-md.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-light">
+                    <h2> 500af <br>Glasses </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white margin-bottom-15">
+                        Exceptional style and<br> value starts here.
+                    </p>
+                    <a class="btn text-light border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 
 <footer class="bg-secondary p-2">
-    <a href="#" class="text-decoration-none text-light font-weight-light ml-2" style="font-size: 18px;">Aziz Rahman
-        Marouf</a>
+    <div class="row m-0">
+        <div class="col-12 text-center text-light pt-2">
+            <h1 class="display-4" style="font-size: 1.5em">About author</h1>
+        </div>
+
+    </div>
+    <div class="row m-0">
+        <div class="col text-center text-light">
+            <h1 class="display-4" style="font-size: 1.5em">Aziz Rahman Marouf</h1>
+            <h1 class="display-4 pb-2" style="font-size: 1.5em">
+                <a class="text-light" href="https://mail.google.com/azizrahmanmarouf10@gmail.com">azizrahmanmarouf10@gmail.com</a>
+            </h1>
+        </div>
+    </div>
+    <hr class="border-light">
+    <div class="row m-0">
+        <div class="col text-light text-center">
+            <div class="display-4 pb-2" style="font-size: 1.1em">
+                Copyright April 2020
+            </div>
+        </div>
+    </div>
 </footer>
 
 </body>
