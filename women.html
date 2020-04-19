@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Women</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style>
-        ul .nav-item a:hover {
-            background-color: darkgrey;
-            transition-duration: .4s;
-        }
-
-        .category_img {
-            /*width: 200px;*/
-            width: 100%;
-        }
 
         @media (max-width: 600px) {
             .category_img {
@@ -24,23 +16,9 @@
             }
         }
 
-        .samples {
-            padding: 5px;
-            margin-top: 10px;
-        }
-
         .samples h4 {
             margin-top: 4px;
             margin-left: 10px;
-        }
-
-        .shoping {
-            margin-top: 30px;
-        }
-
-        .shoping img {
-            width: 100%;
-
         }
 
         .on-image {
@@ -50,21 +28,38 @@
             padding-left: 40px;
         }
 
-        .on-banner {
-            position: absolute;
-            top: 50%;
-            transform: translate(0, -50%);
-            padding-left: 120px;
-        }
-
-        .mylinks:hover {
-            font-size: 1.1em;
-        }
-
         body {
             margin: 0;
             padding: 0;
         }
+
+        .myBTNS {
+            width: 160px;
+            padding: 10px 30px 10px 30px;
+            border-radius: 0px;
+            border: 0;
+        }
+
+        #myBTN2:hover {
+            border-top: 5px solid #117a8b;
+            transition-duration: .4s;
+        }
+
+        .my-cards img {
+            width: 270px;
+        }
+
+        .text-on-cards {
+            font-size: 0.99em;
+        }
+
+        .color-links {
+            float: left;
+            padding: 10px;
+            border: none;
+            margin: 5px;
+        }
+
     </style>
 </head>
 <body>
@@ -90,89 +85,297 @@
 <main>
     <div class="row m-0 p-0">
         <div class="col text-center">
-            <h1 class="display-4 p-3" style="font-size: 2.0em">These images are from other sites and are used for
+            <h1 class="display-4 p-3 copyrights">These images are from other sites and are used for
                 learning purpose.</h1>
         </div>
     </div>
+
     <div class="row container-fluid m-0 p-0">
         <div class="col">
-            <img src="img/home/banner.png" class="" width="100%" alt="Banner">
-            <!--            <div class="on-banner text-light">-->
-            <!--                <h2> Low Prices <br>Glasses </h2>-->
-            <!--                <div class="bar bar-white bar-short bar-transparent"></div>-->
-            <!--                <p class="color-white margin-bottom-15" style="margin-left: 50px">-->
-            <!--                    Exceptional style and<br> value starts here.-->
-            <!--                </p>-->
-            <!--                <div style="margin-left: 100px">-->
-            <!--                    <a class="btn display-4 text-light border border-light p-2 mylinks"> SHOP Sunglasses</a> <br>-->
-            <!--                    <a class="btn display-4 text-light border border-light mt-3 p-2 mylinks" style="margin-left: 50px">-->
-            <!--                        SHOP Eyeglasses</a> <br>-->
-            <!--                    <a class="btn display-4 text-light border border-light mt-3 p-2 mylinks" style="margin-left: 125px">-->
-            <!--                        SHOP NOW</a>-->
-            <!--                </div>-->
-            <!--            </div>-->
+            <img src="img/women/1_tile_a_spot_women-md.png" class="" width="100%" alt="Banner">
         </div>
     </div>
-    <div class="row container-fluid m-0 p-0">
-        <div class="col text-center mt-2">
-            <h3 class="display-4" style="font-size: 2.5em">Your Frames</h3>
-        </div>
+
+    <div class="row m-0 pt-3">
+    <div class="col-lg-3 col-sm-6"><a href="#" class="btn btn-outline-secondary btn-block p-3 mb-3">FRAME STYLE</a>
     </div>
-    <div class="row container-fluid m-0 p-0">
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_FaceShape-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Face Shape</h4>
-            </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_FrameStyle-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Frame Style</h4>
-            </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_glasses-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Glasses</h4>
-            </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_Men-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Men</h4>
-            </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_Women-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Women</h4>
-            </div>
-        </div>
-        <div class="col-lg-2 col-sm-4 col text-center">
-            <div class="samples">
-                <img src="img/home/Tiles_Tortoiseshell-md.jpg" class="category_img" alt="Shapes">
-                <h4 class="display-4" style="font-size: 20px">Tortoiseshell</h4>
-            </div>
-        </div>
+    <div class="col-lg-3 col-sm-6"><a href="#" class="btn btn-outline-secondary btn-block p-3 mb-3">FACE SHAPE</a>
     </div>
+    <div class="col-lg-3 col-sm-6"><a href="#" class="btn btn-outline-secondary btn-block p-3 mb-3">FRAME COLOR</a>
+    </div>
+    <div class="col-lg-3 col-sm-6"><a href="#" class="btn btn-outline-secondary btn-block p-3 mb-3">FRAME FINDER</a>
+    </div>
+</div>
+
     <div class="row m-0 p-0">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12 p-0">
             <div class="shoping">
-                <img src="img/home/SpringMustHaves_c_spot_hp-md.jpg" alt="Photo" class="shoping-image">
+                <img src="img/women/2_tile_b_spot_left_women-lg.jpg" alt="Photo" class="shoping-image">
                 <div class="on-image text-light ml-n4">
                     <h2> Price <br>Some Name </h2>
                     <div class="bar bar-white bar-short bar-transparent"></div>
-                    <p class="color-white margin-bottom-15">
+                    <p class="color-white">
                         Some text <br> Optional
                     </p>
                     <a class="btn text-light border border-light"> SHOP NOW</a>
                 </div>
             </div>
         </div>
+        <div class="col-lg-6 col-sm-12 p-0">
+            <div class="shoping">
+                <img src="img/women/2_tile_b_spot_right_women-lg.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-light">
+                    <h2> 500af <br>Glasses </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white">
+                        Exceptional style and<br> value starts here.
+                    </p>
+                    <a class="btn text-light border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-0">
+        <div class="col-1 p-0 ml-3">
+            <a href="#" class="btn myBTNS" id="myBTN1">New Arrivals</a>
+        </div>
+        <div class="col-1 p-0 ml-3">
+            <a href="#" class="btn myBTNS" id="myBTN2">Best Sellers</a>
+        </div>
+    </div>
+
+    <div class="row d-flex flex-wrap m-0 text-center justify-content-center mt-3">
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-primary"></button>
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-success"></button>
+                <button class="color-links bg-info"></button>
+                <button class="color-links bg-secondary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/1136315-sunglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">200af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-primary"></button>
+                <button class="color-links bg-secondary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/113239-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">900af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-primary"></button>
+                <button class="color-links bg-danger"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/129818-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">6700af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-success"></button>
+                <button class="color-links bg-info"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/1120814-sunglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">400af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-warning"></button>
+                <button class="color-links bg-secondary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/1911517-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">299af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-dark"></button>
+                <button class="color-links bg-success"></button>
+                <button class="color-links bg-light"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/1912049-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">99af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-warning"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/419114-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">800af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-primary"></button>
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-info"></button>
+                <button class="color-links bg-dark"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/4429235-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">600af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-secondary"></button>
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-primary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/4429642-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">300af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-secondary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/4432425-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">150af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-primary"></button>
+                <button class="color-links bg-danger"></button>
+                <button class="color-links bg-info"></button>
+                <button class="color-links bg-secondary"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/4433233-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">2150af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+        <div class="p-0 border my-cards">
+            <div class="mt-3 ml-3">
+                <button class="color-links bg-secondary"></button>
+                <button class="color-links bg-warning"></button>
+                <button class="color-links bg-black"></button>
+                <a href="#" class="btn btn-outline-secondary position-relative mr-3 d-inline float-right">Buy</a>
+            </div>
+            <div class="" style="padding: 30px;padding-top: 80px;padding-bottom: 90px">
+                <img src="img/women/4436918-eyeglasses-front-view.jpg" class="d-block" alt="Glasses">
+                <h3 class="display-4 text-on-cards d-inline float-left mt-5 text-secondary">1000af</h3>
+                <h3 class="display-4 text-on-cards d-inline float-right mt-5 text-warning">NEW ARRIVALS</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row container-fluid m-0 p-0">
+        <div class="col text-center mt-2">
+            <h3 class="display-4" style="font-size: 2.5em">Find your choice <br> All yours</h3>
+        </div>
+    </div>
+
+    <div class="row d-flex flex-wrap m-0 text-center justify-content-center">
+        <div class="catergories">
+            <img src="img/women/6_tile_e_spot_01_women-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">New Arrivals</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_e_spot_04_women-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Best Seller</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_f_spot_11_women-lg.png" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Under 300af</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_e_spot_06_women-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Under 300af</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_f_spot_08_women-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Browline</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_f_spot_10_women-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Rectangle</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_ivory_tortoiseshell-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Titanium</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_women_best_sellers-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Carbon Fiber</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_women_browline-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Acetate</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_women_rectangle-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Classic</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/women/6_tile_ivory_tortoiseshell-lg.jpg" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Aviator</h4>
+        </div>
+        <div class="catergories">
+            <img src="img/men/6_tile_men_under_20-md.png" class="flex-imges" alt="Photo">
+            <h4 class="display-4" style="font-size: 20px">Under 400af</h4>
+        </div>
+    </div>
+
+    <div class="row m-0 p-0">
         <div class="col-lg-6 col-sm-12">
             <div class="shoping">
-                <img src="img/home/two_tile_b_spot_right_hp_best_seller-md.jpg" alt="Photo" class="shoping-image">
+                <img src="img/women/2_tile_f_spot_left_women-md.jpg" alt="Photo" class="shoping-image">
+                <div class="on-image text-secondary">
+                    <h2> Price <br>Some Name </h2>
+                    <div class="bar bar-white bar-short bar-transparent"></div>
+                    <p class="color-white margin-bottom-15">
+                        Some text <br> Optional
+                    </p>
+                    <a class="btn text-secondary border border-light"> SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="shoping">
+                <img src="img/women/2_tile_f_spot_right_women-md.jpg" alt="Photo" class="shoping-image">
                 <div class="on-image text-light">
                     <h2> 500af <br>Glasses </h2>
                     <div class="bar bar-white bar-short bar-transparent"></div>
@@ -185,7 +388,8 @@
         </div>
         <div class="col-lg-6 col-sm-12">
             <div class="shoping">
-                <img src="img/home/2_tile_d_spot_left_women_blokz_sunglasses-md.jpg" alt="Photo" class="shoping-image">
+                <img src="img/women/2_tile_g_spot_left_women-md.jpg" alt="Photo"
+                     class="shoping-image">
                 <div class="on-image text-light">
                     <h2> 500af <br>Glasses </h2>
                     <div class="bar bar-white bar-short bar-transparent"></div>
@@ -198,7 +402,7 @@
         </div>
         <div class="col-lg-6 col-sm-12">
             <div class="shoping">
-                <img src="img/home/2_tile_d_spot_right_homepage-md.jpg" alt="Photo" class="shoping-image">
+                <img src="img/women/2_tile_g_spot_right_women-md.jpg" alt="Photo" class="shoping-image">
                 <div class="on-image text-light">
                     <h2> 500af <br>Glasses </h2>
                     <div class="bar bar-white bar-short bar-transparent"></div>
@@ -208,6 +412,22 @@
                     <a class="btn text-light border border-light"> SHOP NOW</a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="row container-fluid m-0 p-0 mt-2">
+        <div class="col text-center mt-2">
+            <h3 class="display-4" style="font-size: 3em">
+                See what's trending.
+                <br>
+                <span style="font-size: 0.45em">Shop the season's must-have looks.</span>
+            </h3>
+        </div>
+    </div>
+
+    <div class="row container-fluid m-0 p-0 mb-3 mt-3">
+        <div class="col">
+            <img src="img/women/SpringMustHaves_WTLC_Hspot-lg.jpg" class="" width="100%" alt="Banner">
         </div>
     </div>
 
@@ -232,7 +452,7 @@
     <div class="row m-0">
         <div class="col text-light text-center">
             <div class="display-4 pb-2" style="font-size: 1.0em">
-                Copyright April 2020
+                20<sup>th</sup> April 2020
             </div>
         </div>
     </div>

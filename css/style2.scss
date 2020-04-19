@@ -1,0 +1,32 @@
+$radius : 50px;
+
+#myBTN1 {
+    border-top: 5px solid #117a8b;
+    border-top-left-radius: $radius;
+}
+
+#myBTN2 {
+	border-top: 5px solid white;
+	margin-left: 30px;
+	border-top-right-radius: $radius;
+}
+
+.shoping {
+    margin-top: 30px;
+	img {
+        width: 100%;
+    }
+}
+
+%delay {
+	transition-duration: .4s;
+}
+.color-links:hover {
+    padding: 12px;
+    @extend %delay;
+}
+		
+ul .nav-item a:hover {
+    background-color: darkgrey;
+    @extend %delay;
+}

@@ -1,0 +1,24 @@
+#myBTN1 {
+  border-top: 5px solid #117a8b;
+  border-top-left-radius: 50px; }
+
+#myBTN2 {
+  border-top: 5px solid white;
+  margin-left: 30px;
+  border-top-right-radius: 50px; }
+
+.shoping {
+  margin-top: 30px; }
+  .shoping img {
+    width: 100%; }
+
+.color-links:hover, ul .nav-item a:hover {
+  transition-duration: .4s; }
+
+.color-links:hover {
+  padding: 12px; }
+
+ul .nav-item a:hover {
+  background-color: darkgrey; }
+
+/*# sourceMappingURL=style2.css.map */
